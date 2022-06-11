@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Услуги-и-цены</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/logo.png">
+    <link rel="stylesheet" href="../css/services.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="mobile">
+                <div class="menu">
+                    <button class="menu_btn c-hamburger c-hamburger--htx">
+                        <span></span>
+                    </button>
+                </div>
+                <a href="index.html" class="logo"><img src="../img/logo.png"></a>
+                <div class="address_menu">
+                    <button class="menu_btn_address c-hamburger c-hamburger--htx">
+                        <i class="icon-call-answer"></i>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+            <div class="desktop">
+                <a href="index.html" class="logo"><img src="../img/logo.png"></a>
+                <div class="menu">
+                    <div class="top">
+                        <div class="box">
+                            <p>
+                                Москва, Большой Кисловский
+                                пер., д. 1/12 стр. 2, оф. 309
+                            </p>
+                            <a class="tel" href="tel:+7 495 733-99-87">+7 495 733-99-87</a>
+                        </div>
+                        <div class="box">
+                            <p>
+                                С-Петербург, ул. Садовая д.35
+                                офис 413 (БЦ на Сенной)
+                            </p>
+                            <a class="tel" href="tel:+7 812 494-88-55">+7 812 494-88-55</a>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <ul>
+                            <li><a href="company.html">О компании</a></li>
+                            <li><a href="services.html">Услуги и цены</a></li>
+                            <li><a href="payment.html">Оплата</a></li>
+                            <li><a href="publications.html">Акции и предложений </a></li>
+                            <li><a href="publications.html">Публикации</a></li>
+                            <li><a href="contacts.html"> Контакты</a></li>
+                        </ul>
+                        <a href="javascript:void(0)" class="btn open-order">Заказать звонок</a>
+                        <div class="about">
+                            <a href="javascript:void(0)" class="open-login"><i class="icon-profile"></i> Вход</a>
+                            <span>/</span>
+                            <a href="javascript:void(0)" class="open-registration">Регистрация</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="menu_list">
+            <div class="menu_item">
+                <ul>
+                    <li><a href="company.html">О компании</a></li>
+                    <li><a href="services.html">Услуги и цены</a></li>
+                    <li><a href="payment.html">Оплата</a></li>
+                    <li><a href="publications.html">Акции и предложений </a></li>
+                    <li><a href="publications.html">Публикации</a></li>
+                    <li><a href="contacts.html"> Контакты</a></li>
+                </ul>
+                <a href="javascript:void(0)" class="btn open-order">Заказать звонок</a>
+            </div>
+            <div class="menu_bottom">
+                <a href="javascript:void(0)" class="open-login"><i class="icon-profile"></i> Вход</a>
+                <span>/</span>
+                <a href="javascript:void(0)" class="open-registration">Регистрация</a>
+            </div>
+        </nav>
+        <div class="address">
+            <div class="box">
+                <p>
+                    Москва, Большой Кисловский
+                    пер., д. 1/12 стр. 2, оф. 309
+                </p>
+                <a class="tel" href="tel:+7 495 733-99-87">+7 495 733-99-87</a>
+            </div>
+            <div class="box">
+                <p>
+                    С-Петербург, ул. Садовая д.35
+                    офис 413 (БЦ на Сенной)
+                </p>
+                <a class="tel" href="tel:+7 812 494-88-55">+7 812 494-88-55</a>
+            </div>
+        </div>
+    </header>
+    <div class="overlay-valid validPopup">
+        <div class="close"></div>
+        <div class="valid__popup ">
+            <span class="close-popup"></span>
+            <div class="content">
+                <h3>Спасибо за вашу заявку!</h3>
+                <p>
+                    Наш менеджер ответит вам в ближайшее время
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="overlay-order orderPopup">
+        <div class="close"></div>
+        <div class="order__popup ">
+            <span class="close-popup"></span>
+            <div class="content">
+                <h3>Заказать звонок</h3>
+                <p>Наш менеджер ответит вам в ближайшее время</p>
+                <form>
+                    <div class="form_input">
+                        <input placeholder="Ваше имя">
+                    </div>
+                    <div class="form_input">
+                        <input placeholder="Ваш телефон" class="phone_mask">
+                    </div>
+                    <div class="check_form">
+                        <input type="checkbox">
+                        <label>Согласен на обработку персональных данных</label>
+                    </div>
+                    <button class="btn">Отправить</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="overlay-request requestPopup">
+        <div class="close"></div>
+        <div class="request__popup ">
+            <span class="close-popup"></span>
+            <div class="content">
+                <h3>Оформить заявку</h3>
+                <form>
+                    <div class="form_input">
+                        <input placeholder="Ваше имя">
+                    </div>
+                    <div class="form_input">
+                        <input placeholder="Ваш телефон" class="phone_mask">
+                    </div>
+                    <div class="form_input">
+                        <input placeholder="Ваш e-mail">
+                    </div>
+                    <div class="check_form">
+                        <input type="checkbox">
+                        <label>Согласен на обработку персональных данных</label>
+                    </div>
+                    <button class="btn">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-info infoPopup">
+        <div class="close"></div>
+        <div class="info__popup ">
+            <span class="close-popup"></span>
+            <div class="content">
+                <h3>Основание выдачи <strong>ВНЖ</strong></h3>
+                <div class="text mCustomScrollbar ">
+                    <p>
+                        <strong>
+                            Статья 45. Выдача временного вида на жительство для иностранца, который
+                            занимается и намеревается продолжать заниматься юридической
+                            деятельностью.
+                        </strong>
+                    </p>
+                    <p>
+                        1. Временный вид на жительство может выдаваться иностранцу, который занимается и намеревается продолжать заниматься юридической деятельностью в Литовской Республике, когда он:
+
+                    </p>
+                    <p>
+                        1) является участником предприятия, которое, по крайней мере, в течение последних 6 месяцев, прежде чем ходатайствовать о предоставлении временного вида на жительство иностранцем, выполняет деятельность, указанную в учредительных документах Литовской Республики, в которой полный рабочий день Литовской Республики, других государств-членов Европейского союза или Европейской ассоциации свободной торговли граждане страны или иностранцы, постоянно проживающие в Литовской Республике, которые выплачивают ежемесячную заработную плату, составляют не менее чем в 2 раза среднемесячную брутто-заработную плату последних опубликованных национальных сотрудников Статистического управления Литвы и чей капитал (в случае непубличной компании или частного общества с ограниченной ответственностью, активы) составляет не менее 28 000 евро,из которых не менее 14 000 евро - средства или другие активы, вложенные иностранцем, и он является главой этой компании или является акционером публичной компании с ограниченной ответственностью или частной компанией с ограниченной ответственностью, право собственности на акции которой имеет номинальную стоимость не менее 1/3 уставного капитала компании капитал;
+
+                    </p>
+                    <p>
+                        2) является руководителем предприятия, отвечающего требованиям, указанным в пункте 1) настоящего подраздела, и цель его прибытия - работа на этом предприятии;
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-result resultPopup">
+        <div class="close"></div>
+        <div class="result__popup ">
+            <span class="close-popup"></span>
+            <div class="content">
+                <form>
+                    <h3>Введите Вашу почту и мы вышлем
+                        Вам письмо с результатами теста</h3>
+                    <div class="form_input">
+                        <input placeholder="Ваш e-mail">
+                    </div>
+                    <h3>Для бесплатной консультации
+                        миграционного адвоката
+                        оставьте ваш телефон</h3>
+                    <div class="form_input">
+                        <input placeholder="Ваше имя">
+                    </div>
+                    <div class="form_input">
+                        <input placeholder="Ваш телефон" class="phone_mask">
+                    </div>
+
+                    <div class="check_form">
+                        <input type="checkbox">
+                        <label>Согласен на обработку персональных данных</label>
+                    </div>
+                    <button class="btn">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-confidentiality confidentialityPopup">
+        <div class="close"></div>
+        <div class="confidentiality__popup ">
+            <span class="close-popup"></span>
+            <div class="content">
+                <h3>Политика конфиденциальности</h3>
+                <div class="text mCustomScrollbar ">
+                    <p>
+                        <strong>
+                            Настоящая Политика определяет порядок, условия обработки персональных данных
+                            пользователей Интернет-сайта consultingplus24.ru (далее – Сайт) и устанавливает
+                            требования по обеспечению безопасности персональных данных пользователей
+                            Администрацией Сайта.
+                        </strong>
+                    </p>
+                    <p>Политика разработана и реализуется в соответствии со следующими нормативными правовыми актами в
+                        области обработки и обеспечения безопасности персональных данных:</p>
+                    <p>
+                        Политика разработана и реализуется в соответствии со следующими нормативными правовыми актами в
+                        области обработки и обеспечения безопасности персональных данных:
+                        Политика разработана и реализуется в соответствии со следующими нормативными правовыми актами в
+                        области обработки и обеспечения безопасности персональных данных:
+                        Политика разработана и реализуется в соответствии со следующими нормативными правовыми актами в
+                        области обработки и обеспечения безопасности персональных данных:Политика разработана и реализуется
+                        в соответствии со следующими нормативными правовыми актами в области обработки и обеспечения
+                        безопасности персональных данных:Политика разработана и реализуется в соответствии со следующими
+                        нормативными правовыми актами в области обработки и обеспечения безопасности персональных данных:
+                        Политика разработана и реализуется в соответствии со следующими нормативными правовыми актами в
+                        области обработки и обеспечения безопасности персональных данных:Политика разработана и реализуется
+                        в соответствии со следующими нормативными правовыми актами в области обработки и обеспечения
+                        безопасности персональных данных:Политика разработана и реализуется в соответствии со
+                        следующими нормативными правовыми актами в области обработки и обеспечения безопасности
+                        персональных данных:Политика разработана и реализуется в соответствии со следующими
+                        нормативными правовыми актами в области обработки и обеспечения безопасности персональных
+                        данных:Политика разработана и реализуется в соответствии со следующими нормативными
+                        правовыми актами в области обработки и обеспечения безопасности персональных данных:Политика
+                        разработана и реализуется в соответствии со следующими нормативными правовыми актами в области
+                        обработки и обеспечения безопасности персональных данных:
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay-registration registrationPopup">
+        <div class="close"></div>
+        <div class="registration__popup ">
+            <span class="close-popup"></span>
+            <div class="content">
+                <h3> Зарегистрируйся
+                    <strong>
+                        и получи особые условия!
+                    </strong></h3>
+                <form>
+                    <div class="form_input">
+                        <i class="icon-mail"></i>
+                        <input placeholder="Почта">
+                    </div>
+                    <div class="form_input">
+                        <i class="icon-padlock"></i>
+                        <input placeholder="Пароль">
+                        <i class="icon-eye"></i>
+                    </div>
+                    <button class="btn">Отправить</button>
+                </form>
+                <span>Зарегистрируйтесь через Facebook / Vkontakte / Google+ </span>
+                <div class="social">
+                    <a href="#"><img src="../img/facebook.png"></a>
+                    <a href="#"><img src="../img/VK.png"></a>
+                    <a href="#"><img src="../img/google.png"></a>
+                </div>
+                <p class="about">Уже имеете аккаунт? <a href="#" class="clos_registration open-login">Войдите</a> </p>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-login loginPopup">
+        <div class="close"></div>
+        <div class="login__popup ">
+            <span class="close-popup"></span>
+            <div class="content">
+                <h3>войти в аккаунт</h3>
+                <form>
+                    <div class="form_input">
+                        <i class="icon-mail"></i>
+                        <input placeholder="Почта">
+                    </div>
+                    <div class="form_input">
+                        <i class="icon-padlock"></i>
+                        <input placeholder="Пароль">
+                        <i class="icon-eye"></i>
+                    </div>
+                    <button class="btn">Отправить</button>
+                </form>
+                <span>Ввойдите через Facebook / Vkontakte / Google+ </span>
+                <div class="social">
+                    <a href="#"><img src="../img/facebook.png"></a>
+                    <a href="#"><img src="../img/VK.png"></a>
+                    <a href="#"><img src="../img/google.png"></a>
+                </div>
+                <p class="about">Уже имеете аккаунт? <a href="#" class=" open-login">Войдите</a> </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay-recommendations_video recommendations_videoPopup">
+        <div class="close"></div>
+        <div class="recommendations_video__popup">
+            <span class="close-popup closeBtn"></span>
+            <div class="content">
+                <span class="reviews-row-item-video-block">
+                    <iframe width="100%" height="300px" src="https://www.youtube.com/embed/COwlqqErDbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-reviews reviewsPopup">
+        <div class="close"></div>
+        <div class="reviews__popup">
+            <span class="close-popup closeBtn"></span>
+            <div class="content">
+                <img src="../img/revie.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="top">
+        <div class="container">
+            <ul class="breadcrumb">
+                <li><a href="#">Главная</a></li>
+                <li><span>/</span></li>
+                <li class="active">Услуги и цены</li>
+            </ul>
+            <h3 class="revealator-slideup revealator-once">Наши услуги</h3>
+        </div>
+    </div>
+    <section class="services">
+        <div class="container">
+            <div class="img">
+                <div class="img_about tossing">
+                    <img src="../img/obj_2.png">
+                </div>
+            </div>
+            <div class="text">
+                <h5>ДОЛГОСРОЧНЫЕ ШЕНГЕН-ВИЗЫ типа D</h5>
+                <p>
+                    <strong>Визой типа "D"</strong> называется виза
+                    для пребывания на срок,
+                    превышающий 90 дней, но
+                    не более 1 года (т.е. максимум -
+                    365 дней). Срок действия такой
+                    визы зависит от цели
+                    посещения.
+                </p>
+                <p>
+                    Виза типа "D" является
+                    национальной визой. Виза
+                    типа “D” выдаётся иностранцам,
+                    намеревающимся учиться
+                    в средних и высших учебных
+                    заведениях или работать.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="price">
+        <div class="img_about expandOpen">
+            <img src="../img/obj_2.png">
+        </div>
+        <div class="img_about_2 expandOpen">
+            <img src="../img/obj_6.png">
+        </div>
+        <div class="img_about_3 expandOpen">
+            <img src="../img/obj_6.png">
+        </div>
+        <div class="container">
+            <h3 class="revealator-slideup revealator-once">Прайс-лист</h3>
+            <div class="table_box table_1">
+                <div class="table_desktop">
+                    <table>
+                        <tr>
+                            <td>
+                                <p><strong>ДОЛГОСРОЧНЫЕ ШЕНГЕН-ВИЗЫ типа D</strong></p>
+                            </td>
+                            <td>
+                                <p><strong>Сроки</strong></p>
+                            </td>
+                            <td>
+                                <p><strong>Стоимость</strong></p>
+                            </td>
+                            <td>
+                                <p><strong></strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>PL 6 мес (180/180)</p>
+                            </td>
+                            <td>
+                                <p>14 дней </p>
+                            </td>
+                            <td>
+                                <p>500 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>PL 6 мес (180/180)</p>
+                            </td>
+                            <td>
+                                <p>3 дня</p>
+                            </td>
+                            <td>
+                                <p>600 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>PL 12 мес (365/365)</p>
+                            </td>
+                            <td>
+                                <p>1.5 месяца</p>
+                            </td>
+                            <td>
+                                <p>1200 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>PL 12 мес (365/365)</p>
+                            </td>
+                            <td>
+                                <p>14 дней </p>
+                            </td>
+                            <td>
+                                <p>1500 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>LT 12 мес (365/365))</p>
+                            </td>
+                            <td>
+                                <p>3-5 дней</p>
+                            </td>
+                            <td>
+                                <p>1500 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>LT 12 мес (365/365)</p>
+                            </td>
+                            <td>
+                                <p>30 дней без выезда из ЕС</p>
+                            </td>
+                            <td>
+                                <p>1800 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>LT 12 мес (365/365)</p>
+                            </td>
+                            <td>
+                                <p>30 дней</p>
+                            </td>
+                            <td>
+                                <p>1500 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>LT 12 мес (365/365)</p>
+                            </td>
+                            <td>
+                                <p>30 дней без выезда из ЕС</p>
+                            </td>
+                            <td>
+                                <p>1800 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>EE 9 мес (275/275)</p>
+                            </td>
+                            <td>
+                                <p>14 дней </p>
+                            </td>
+                            <td>
+                                <p>1000 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>EE 9 мес (275/275)</p>
+                            </td>
+                            <td>
+                                <p>14 дней без выезда из ЕС</p>
+                            </td>
+                            <td>
+                                <p>1400 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="table_mobile table_1">
+            <div class="container">
+                <div class="box_container">
+                    <h5>ДОЛГОСРОЧНЫЕ ШЕНГЕН-ВИЗЫ типа D</h5>
+                    <div class="box">
+                        <p class="title">PL 6 мес (180/180)</p>
+                        <div class="row">
+                            <p>Сроки</p>
+                            <p><span>14 дней</span> </p>
+                        </div>
+                        <div class="row">
+                            <p>Стоимость</p>
+                            <p><span>500 EUR</span></p>
+                        </div>
+                        <a href="#">Заказать</a>
+                    </div>
+                    <div class="box">
+                        <p class="title">PL 6 мес (180/180)</p>
+                        <div class="row">
+                            <p>Сроки</p>
+                            <p><span>3 дня</span> </p>
+                        </div>
+                        <div class="row">
+                            <p>Стоимость</p>
+                            <p><span>600 EUR</span></p>
+                        </div>
+                        <a href="#">Заказать</a>
+                    </div>
+                    <div class="box">
+                        <p class="title">PL 6 мес (180/180)</p>
+                        <div class="row">
+                            <p>Сроки</p>
+                            <p><span>1.5 месяца</span> </p>
+                        </div>
+                        <div class="row">
+                            <p>Стоимость</p>
+                            <p><span>1200 EUR</span></p>
+                        </div>
+                        <a href="#">Заказать</a>
+                    </div>
+                    <div class="box">
+                        <p class="title">PL 6 мес (180/180)</p>
+                        <div class="row">
+                            <p>Сроки</p>
+                            <p><span>14 дней</span> </p>
+                        </div>
+                        <div class="row">
+                            <p>Стоимость</p>
+                            <p><span>1500 EUR</span></p>
+                        </div>
+                        <a href="#">Заказать</a>
+                    </div>
+                    <div class="box">
+                        <p class="title">PL 6 мес (180/180)</p>
+                        <div class="row">
+                            <p>Сроки</p>
+                            <p><span>3-5 дней</span> </p>
+                        </div>
+                        <div class="row">
+                            <p>Стоимость</p>
+                            <p><span>1500 EUR</span></p>
+                        </div>
+                        <a href="#">Заказать</a>
+                    </div>
+                    <div class="box">
+                        <p class="title">PL 6 мес (180/180)</p>
+                        <div class="row">
+                            <p>Сроки</p>
+                            <p><span>30 дней без выезда из ЕС</span></p>
+                        </div>
+                        <div class="row">
+                            <p>Стоимость</p>
+                            <p><span>1500 EUR</span></p>
+                        </div>
+                        <a href="#">Заказать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h6>Пошаговый процесс оформления визы D</h6>
+            <div class="price_container row_1">
+                <div class="box">
+                    <span class="num">1</span>
+                    <p>Свяжитесь с нами
+                        и предоставьте скан.
+                        загранпаспорта либо фото,
+                        для договора.</p>
+                </div>
+                <div class="box">
+                    <span class="num">2</span>
+                    <p>Подписываете договор в наших
+                        офисах либо онлайн.</p>
+                </div>
+                <div class="box">
+                    <span class="num">3</span>
+                    <p>Вносите предоплату (если
+                        предусмотрено
+                        договором)</p>
+                </div>
+            </div>
+            <div class="price_container row_2">
+                <div class="box">
+                    <span class="num">4</span>
+                    <p>Получите пакет документов,
+                        готовый к подаче, в нашем
+                        офисе <span>*</span> </p>
+                </div>
+                <div class="box">
+                    <span class="num">5</span>
+                    <p>Подайте документы в визовый
+                        центр либо консульство</p>
+                </div>
+                <div class="box">
+                    <span class="num">6</span>
+                    <p>Получите визу в консульстве
+                        лично либо в Визовом Центре
+                        VFS Global, курьер доставит Вам
+                        паспорт с визой в руки.</p>
+                </div>
+            </div>
+            <p class="about">
+                * так же можем выслать
+                документы курьерской
+                службой DHL
+                по всему миру(бесплатно)
+            </p>
+        </div>
+    </section>
+    <section class="services_2">
+        <div class="container">
+            <div class="text">
+                <h5>Вид на жительство</h5>
+                <p>
+                    <strong> Вид на жительство</strong> - это документ, который дает разрешение на проживание временно
+                    в стране, он также удостоверяет личность человека. Кроме этого, с таким документом
+                    можно пересекать границу ЕС много раз, без оформления визы и постановки штампов
+                    в паспорт.
+                </p>
+                <p>
+                    Вид на жительство (карта побыту) позволяет иностранцу находиться в Польше,
+                    официально работать или вести бизнес. Зачастую выдается она на один два либо три
+                    года, потом ее следует продлевать.
+                </p>
+                <p>
+                    Вид на жительство выданный одной из стран Шенгена позволяет проживать в других
+                    странах Шенгенского соглашения, на практике, без ограничений по времени.
+                </p>
+            </div>
+            <div class="img">
+                <div class="img_about tossing">
+                    <img src="../img/obj_3.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="price_2">
+        <div class="img_about expandOpen">
+            <img src="../img/obj_3.png">
+        </div>
+        <!--<div class="img_about_2 expandOpen">-->
+        <!--<img src="../img/obj_6.png">-->
+        <!--</div>-->
+        <!--<div class="img_about_3 expandOpen">-->
+        <!--<img src="../img/obj_6.png">-->
+        <!--</div>-->
+        <div class="container">
+            <h3 class="revealator-slideup revealator-once">Прайс-лист</h3>
+            <div class="table_box table_2">
+                <div class="table_desktop">
+                    <table>
+                        <tr>
+                            <td>
+                                <p><strong>Вид на жительство</strong></p>
+                            </td>
+                            <td>
+                                <p><strong>Сроки</strong></p>
+                            </td>
+                            <td>
+                                <p><strong>Стоимость</strong></p>
+                            </td>
+                            <td>
+                                <p><strong></strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Польша(учеба)</p>
+                            </td>
+                            <td>
+                                <p>3-4 дня</p>
+                            </td>
+                            <td>
+                                <p>2500 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Польша(работа)</p>
+                            </td>
+                            <td>
+                                <p>3-4 дня</p>
+                            </td>
+                            <td>
+                                <p>3000 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Польша(бизнес)</p>
+                            </td>
+                            <td>
+                                <p>3-4 дня</p>
+                            </td>
+                            <td>
+                                <p>3000 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Польша(учеба) - семья </p>
+                            </td>
+                            <td>
+                                <p>3-4 дня</p>
+                            </td>
+                            <td>
+                                <p>5000 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Польша(работа) - семья</p>
+                            </td>
+                            <td>
+                                <p>3-4 дня</p>
+                            </td>
+                            <td>
+                                <p>7000 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Польша(бизнес) - семья</p>
+                            </td>
+                            <td>
+                                <p>3-4 дня</p>
+                            </td>
+                            <td>
+                                <p>7000 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Польша продление </p>
+                            </td>
+                            <td>
+                                <p>3-4 дня</p>
+                            </td>
+                            <td>
+                                <p>1500 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Польша продление - семья</p>
+                            </td>
+                            <td>
+                                <p>3-4 дня</p>
+                            </td>
+                            <td>
+                                <p>3000 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Испания(без права на работу)</p>
+                            </td>
+                            <td>
+                                <p>3-4 дня</p>
+                            </td>
+                            <td>
+                                <p>4500 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Испания(без права на работу) - семья</p>
+                            </td>
+                            <td>
+                                <p>3-4 дня</p>
+                            </td>
+                            <td>
+                                <p>6500 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Испания(без право на работу) продление</p>
+                            </td>
+                            <td>
+                                <p>3-4 дня</p>
+                            </td>
+                            <td>
+                                <p>1500 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Испания(без право на работу) продление семья</p>
+                            </td>
+                            <td>
+                                <p>3-4 дня</p>
+                            </td>
+                            <td>
+                                <p>2000 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Словения(бизнес)</p>
+                            </td>
+                            <td>
+                                <p>3-4 дня</p>
+                            </td>
+                            <td>
+                                <p>3500 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Словения(бизнес) - семья </p>
+                            </td>
+                            <td>
+                                <p>3-4 дня</p>
+                            </td>
+                            <td>
+                                <p>6500 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Словения(бизнес) продление</p>
+                            </td>
+                            <td>
+                                <p>3-4 дня</p>
+                            </td>
+                            <td>
+                                <p>1500 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Словения(бизнес) продление семья</p>
+                            </td>
+                            <td>
+                                <p>3-4 дня</p>
+                            </td>
+                            <td>
+                                <p>3000 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Чехия(работа)</p>
+                            </td>
+                            <td>
+                                <p>3-4 дня</p>
+                            </td>
+                            <td>
+                                <p>3500 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Чехия(семья))</p>
+                            </td>
+                            <td>
+                                <p>3-4 дня</p>
+                            </td>
+                            <td>
+                                <p>7000 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Чехия(работа) продление</p>
+                            </td>
+                            <td>
+                                <p>3-4 дня</p>
+                            </td>
+                            <td>
+                                <p>1500 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Чехия(семья) продление семья</p>
+                            </td>
+                            <td>
+                                <p>3-4 дня</p>
+                            </td>
+                            <td>
+                                <p>3000 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="table_mobile table_2">
+            <div class="container">
+                <div class="box_container">
+                    <h5>Вид на жительство</h5>
+                    <div class="box">
+                        <p class="title">Польша(учеба)</p>
+                        <div class="row">
+                            <p>Сроки</p>
+                            <p><span>3-4 дня</span> </p>
+                        </div>
+                        <div class="row">
+                            <p>Стоимость</p>
+                            <p><span>2500 EUR</span></p>
+                        </div>
+                        <a href="#">Заказать</a>
+                    </div>
+                    <div class="box">
+                        <p class="title">Польша(работа)</p>
+                        <div class="row">
+                            <p>Сроки</p>
+                            <p><span>3-4 дня</span> </p>
+                        </div>
+                        <div class="row">
+                            <p>Стоимость</p>
+                            <p><span>3000 EUR</span></p>
+                        </div>
+                        <a href="#">Заказать</a>
+                    </div>
+                    <div class="box">
+                        <p class="title">Польша(бизнес)</p>
+                        <div class="row">
+                            <p>Сроки</p>
+                            <p><span>3-4 дня</span> </p>
+                        </div>
+                        <div class="row">
+                            <p>Стоимость</p>
+                            <p><span>3000 EUR</span></p>
+                        </div>
+                        <a href="#">Заказать</a>
+                    </div>
+                    <div class="box">
+                        <p class="title">Польша(учеба) - семья </p>
+                        <div class="row">
+                            <p>Сроки</p>
+                            <p><span>3-4 дня</span> </p>
+                        </div>
+                        <div class="row">
+                            <p>Стоимость</p>
+                            <p><span>5000 EUR</span></p>
+                        </div>
+                        <a href="#">Заказать</a>
+                    </div>
+                    <div class="box">
+                        <p class="title">Польша(работа) - семья</p>
+                        <div class="row">
+                            <p>Сроки</p>
+                            <p><span>3-4 дня</span> </p>
+                        </div>
+                        <div class="row">
+                            <p>Стоимость</p>
+                            <p><span>7000 EUR</span></p>
+                        </div>
+                        <a href="#">Заказать</a>
+                    </div>
+                    <div class="box">
+                        <p class="title">Польша(бизнес) - семья</p>
+                        <div class="row">
+                            <p>Сроки</p>
+                            <p><span>3-4 дня</span> </p>
+                        </div>
+                        <div class="row">
+                            <p>Стоимость</p>
+                            <p><span>7000 EUR</span></p>
+                        </div>
+                        <a href="#">Заказать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="services_3">
+        <div class="container">
+            <h5>Пошаговый процесс оформления ВНЖ</h5>
+            <div class="box_container row_1">
+                <div class="box">
+                    <span class="num">1</span>
+                    <p>Свяжитесь с нами и предоставьте
+                        необходимые документы</p>
+                </div>
+                <div class="box">
+                    <span class="num">2</span>
+                    <p>Подписываете договор в наших
+                        офисах либо онлайн</p>
+                </div>
+                <div class="box">
+                    <span class="num">3</span>
+                    <p>Вносите предоплату (если
+                        предусмотрено
+                        договором)</p>
+                </div>
+            </div>
+            <div class="box_container row_2">
+                <div class="box">
+                    <span class="num">4</span>
+                    <p>Получите пакет документов,
+                        готовый к подаче, в нашем
+                        офисе <span>*</span> </p>
+                </div>
+                <div class="box">
+                    <span class="num">5</span>
+                    <p>Подайте документы
+                        в консульство</p>
+                </div>
+                <div class="box">
+                    <span class="num">6</span>
+                    <p>Получите национальную визу,
+                        по которой надо въехать в страну,
+                        ВНЖ которой оформляете,
+                        для заказа ID карты вида
+                        на жительство </p>
+                </div>
+                <div class="box">
+                    <span class="num">7</span>
+                    <p>Получите ID карту ВНЖ,
+                        ПОЗДРАВЛЯЕМ! </p>
+                </div>
+            </div>
+            <p class="about">
+                * так же можем выслать
+                документы курьерской
+                службой DHL
+                по всему миру(бесплатно)
+            </p>
+        </div>
+    </section>
+    <section class="price_3">
+        <div class="container">
+            <h3 class="revealator-slideup revealator-once">УСлуги Бизнес</h3>
+            <div class="table_box table_3">
+                <div class="table_desktop">
+                    <table>
+                        <tr>
+                            <td>
+                                <p><strong>Европейские компании</strong></p>
+                            </td>
+                            <td>
+                                <p><strong>Сроки</strong></p>
+                            </td>
+                            <td>
+                                <p><strong>Стоимость</strong></p>
+                            </td>
+                            <td>
+                                <p><strong></strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Литва UAB - аналог ООО,</p>
+                                <ul>
+                                    <li>- без НДС</li>
+                                    <li>- налог на прибыль 5%,</li>
+                                    <li>- уставной капитал 2500 сформирован</li>
+                                    <li>- IBAN счет и карта VISA</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <p>14 дней </p>
+                            </td>
+                            <td>
+                                <p>1200 EUR без дополнительных платежей!</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Эстония OU - аналог ООО, </p>
+                                <ul>
+                                    <li>- без НДС</li>
+                                    <li>- налог на прибыль 5%,</li>
+                                    <li>- уставной капитал 2500 сформирован</li>
+                                    <li>- IBAN счет и карта VISA</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <p>14 дней </p>
+                            </td>
+                            <td>
+                                <p>1200 EUR без дополнительных платежей!</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><strong>Финансы</strong></p>
+                            </td>
+                            <td>
+                                <p><strong>Сроки</strong></p>
+                            </td>
+                            <td>
+                                <p><strong>Стоимость</strong></p>
+                            </td>
+                            <td>
+                                <p><strong></strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Открытие IBAN счета и карты VISA на компанию(удаленно) )</p>
+                            </td>
+                            <td>
+                                <p>3 дня</p>
+                            </td>
+                            <td>
+                                <p>300 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Подключение интернет-эквайринга для Вашего сайта (прием оплаты visa/master)</p>
+                            </td>
+                            <td>
+                                <p>1 день </p>
+                            </td>
+                            <td>
+                                <p>400 EUR</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <p><strong>Прочие услуги</strong></p>
+                            </td>
+                            <td>
+                                <p><strong>Стоимость</strong></p>
+                            </td>
+                            <td>
+                                <p><strong></strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <p>Организация бизнеса в ЕС "под ключ"</p>
+                            </td>
+                            <td>
+                                <p>договорная</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <p>Выход на Европейский рынок, маркетинг "под ключ"</p>
+                            </td>
+                            <td>
+                                <p>договорная</p>
+                            </td>
+                            <td><a href="#">Заказать</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="table_mobile table_3">
+            <div class="container">
+                <div class="box_container">
+                    <h5>Европейские компании</h5>
+                    <div class="box">
+                        <p>Литва UAB - аналог ООО,</p>
+                        <ul>
+                            <li>- без НДС</li>
+                            <li>- налог на прибыль 5%,</li>
+                            <li>- уставной капитал 2500 с формирован</li>
+                            <li>- IBAN счет и карта VISA</li>
+                        </ul>
+                        <div class="row">
+                            <p>Сроки</p>
+                            <p><span>14 дней</span> </p>
+                        </div>
+                        <div class="row">
+                            <p>Стоимость</p>
+                            <p><span>1200 EUR </span><span>без дополнительных платежей!</span></p>
+                        </div>
+                        <a href="#">Заказать</a>
+                    </div>
+                    <div class="box">
+                        <p>Эстония OU - аналог ООО, </p>
+                        <ul>
+                            <li>- без НДС</li>
+                            <li>- налог на прибыль 0%,</li>
+                            <li>- уставной капитал 2500 с формирован</li>
+                            <li>- IBAN счет и карта VISA</li>
+                        </ul>
+                        <div class="row">
+                            <p>Сроки</p>
+                            <p><span>14 дней</span> </p>
+                        </div>
+                        <div class="row">
+                            <p>Стоимость</p>
+                            <p><span>1200 EUR </span><span>без дополнительных платежей!</span></p>
+                        </div>
+                        <a href="#">Заказать</a>
+                    </div>
+                    <h5>Финансы</h5>
+                    <div class="box">
+                        <p class="title">Открытие IBAN счета и карты VISA на компанию (удаленно) </p>
+                        <div class="row">
+                            <p>Сроки</p>
+                            <p><span>3 дня</span> </p>
+                        </div>
+                        <div class="row">
+                            <p>Стоимость</p>
+                            <p><span>300 EUR</span></p>
+                        </div>
+                        <a href="#">Заказать</a>
+                    </div>
+                    <div class="box">
+                        <p class="title">Подключение интернет- эквайринга для Вашего сайта (прием оплаты visa/master)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>
+                <span>OU «CONSULTING PLUS IMMIGRATION»</span>
+                - один из лидеров
+                на рынке бизнес-иммиграции в ЕС!
+            </p>
+            <a href="javascript:void(0)" class="open-confidentiality">Политика конфиденциальности</a>
+            <p>РЕГ. №12731938</p>
+            <ul class="pay">
+                <li><i class="icon-visa-pay-logo1"></i></li>
+                <li><i class="icon-mastercard"></i></li>
+                <li><i class="icon-bitcoin-logo"></i></li>
+            </ul>
+            <p class="about">© Все права защищены</p>
+        </div>
+    </footer>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.mask.min.js"></script>
+    <script src="../js/jquery.fancybox.min.js"></script>
+    <script src="../js/jcf.min.js"></script>
+    <script src="../js/jcf.checkbox.min.js"></script>
+    <script src="../js/jcf.radio.min.js"></script>
+    <script src="../js/jcf.select.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/fm.revealator.jquery.min.js"></script>
+    <script src="../js/script.min.js"></script>
+
+</body>
+
+</html>

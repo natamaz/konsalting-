@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>страница-статьи</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/logo.png">
+    <link rel="stylesheet" href="../css/articles.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="mobile">
+                <div class="menu">
+                    <button class="menu_btn c-hamburger c-hamburger--htx">
+                        <span></span>
+                    </button>
+                </div>
+                <a href="index.html" class="logo"><img src="../img/logo.png"></a>
+                <div class="address_menu">
+                    <button class="menu_btn_address c-hamburger c-hamburger--htx">
+                        <i class="icon-call-answer"></i>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+            <div class="desktop">
+                <a href="index.html" class="logo"><img src="../img/logo.png"></a>
+                <div class="menu">
+                    <div class="top">
+                        <div class="box">
+                            <p>
+                                Москва, Большой Кисловский
+                                пер., д. 1/12 стр. 2, оф. 309
+                            </p>
+                            <a class="tel" href="tel:+7 495 733-99-87">+7 495 733-99-87</a>
+                        </div>
+                        <div class="box">
+                            <p>
+                                С-Петербург, ул. Садовая д.35
+                                офис 413 (БЦ на Сенной)
+                            </p>
+                            <a class="tel" href="tel:+7 812 494-88-55">+7 812 494-88-55</a>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <ul>
+                            <li><a href="company.html">О компании</a></li>
+                            <li><a href="services.html">Услуги и цены</a></li>
+                            <li><a href="payment.html">Оплата</a></li>
+                            <li><a href="publications.html">Акции и предложений </a></li>
+                            <li><a href="publications.html">Публикации</a></li>
+                            <li><a href="contacts.html"> Контакты</a></li>
+                        </ul>
+                        <a href="javascript:void(0)" class="btn open-order">Заказать звонок</a>
+                        <div class="about">
+                            <a href="javascript:void(0)" class="open-login"><i class="icon-profile"></i> Вход</a>
+                            <span>/</span>
+                            <a href="javascript:void(0)" class="open-registration">Регистрация</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="menu_list">
+            <div class="menu_item">
+                <ul>
+                    <li><a href="company.html">О компании</a></li>
+                    <li><a href="services.html">Услуги и цены</a></li>
+                    <li><a href="payment.html">Оплата</a></li>
+                    <li><a href="publications.html">Акции и предложений </a></li>
+                    <li><a href="publications.html">Публикации</a></li>
+                    <li><a href="contacts.html"> Контакты</a></li>
+                </ul>
+                <a href="javascript:void(0)" class="btn open-order">Заказать звонок</a>
+            </div>
+            <div class="menu_bottom">
+                <a href="javascript:void(0)" class="open-login"><i class="icon-profile"></i> Вход</a>
+                <span>/</span>
+                <a href="javascript:void(0)" class="open-registration">Регистрация</a>
+            </div>
+        </nav>
+        <div class="address">
+            <div class="box">
+                <p>
+                    Москва, Большой Кисловский
+                    пер., д. 1/12 стр. 2, оф. 309
+                </p>
+                <a class="tel" href="tel:+7 495 733-99-87">+7 495 733-99-87</a>
+            </div>
+            <div class="box">
+                <p>
+                    С-Петербург, ул. Садовая д.35
+                    офис 413 (БЦ на Сенной)
+                </p>
+                <a class="tel" href="tel:+7 812 494-88-55">+7 812 494-88-55</a>
+            </div>
+        </div>
+    </header>
+    <div class="overlay-valid validPopup">
+        <div class="close"></div>
+        <div class="valid__popup ">
+            <span class="close-popup"></span>
+            <div class="content">
+                <h3>Спасибо за вашу заявку!</h3>
+                <p>
+                    Наш менеджер ответит вам в ближайшее время
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="overlay-order orderPopup">
+        <div class="close"></div>
+        <div class="order__popup ">
+            <span class="close-popup"></span>
+            <div class="content">
+                <h3>Заказать звонок</h3>
+                <p>Наш менеджер ответит вам в ближайшее время</p>
+                <form>
+                    <div class="form_input">
+                        <input placeholder="Ваше имя">
+                    </div>
+                    <div class="form_input">
+                        <input placeholder="Ваш телефон" class="phone_mask">
+                    </div>
+                    <div class="check_form">
+                        <input type="checkbox">
+                        <label>Согласен на обработку персональных данных</label>
+                    </div>
+                    <button class="btn">Отправить</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="overlay-request requestPopup">
+        <div class="close"></div>
+        <div class="request__popup ">
+            <span class="close-popup"></span>
+            <div class="content">
+                <h3>Оформить заявку</h3>
+                <form>
+                    <div class="form_input">
+                        <input placeholder="Ваше имя">
+                    </div>
+                    <div class="form_input">
+                        <input placeholder="Ваш телефон" class="phone_mask">
+                    </div>
+                    <div class="form_input">
+                        <input placeholder="Ваш e-mail">
+                    </div>
+                    <div class="check_form">
+                        <input type="checkbox">
+                        <label>Согласен на обработку персональных данных</label>
+                    </div>
+                    <button class="btn">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-info infoPopup">
+        <div class="close"></div>
+        <div class="info__popup ">
+            <span class="close-popup"></span>
+            <div class="content">
+                <h3>Основание выдачи <strong>ВНЖ</strong></h3>
+                <div class="text mCustomScrollbar ">
+                    <p>
+                        <strong>
+                            Статья 45. Выдача временного вида на жительство для иностранца, который
+                            занимается и намеревается продолжать заниматься юридической
+                            деятельностью.
+                        </strong>
+                    </p>
+                    <p>
+                        1. Временный вид на жительство может выдаваться иностранцу, который занимается и намеревается продолжать заниматься юридической деятельностью в Литовской Республике, когда он:
+
+                    </p>
+                    <p>
+                        1) является участником предприятия, которое, по крайней мере, в течение последних 6 месяцев, прежде чем ходатайствовать о предоставлении временного вида на жительство иностранцем, выполняет деятельность, указанную в учредительных документах Литовской Республики, в которой полный рабочий день Литовской Республики, других государств-членов Европейского союза или Европейской ассоциации свободной торговли граждане страны или иностранцы, постоянно проживающие в Литовской Республике, которые выплачивают ежемесячную заработную плату, составляют не менее чем в 2 раза среднемесячную брутто-заработную плату последних опубликованных национальных сотрудников Статистического управления Литвы и чей капитал (в случае непубличной компании или частного общества с ограниченной ответственностью, активы) составляет не менее 28 000 евро,из которых не менее 14 000 евро - средства или другие активы, вложенные иностранцем, и он является главой этой компании или является акционером публичной компании с ограниченной ответственностью или частной компанией с ограниченной ответственностью, право собственности на акции которой имеет номинальную стоимость не менее 1/3 уставного капитала компании капитал;
+
+                    </p>
+                    <p>
+                        2) является руководителем предприятия, отвечающего требованиям, указанным в пункте 1) настоящего подраздела, и цель его прибытия - работа на этом предприятии;
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-result resultPopup">
+        <div class="close"></div>
+        <div class="result__popup ">
+            <span class="close-popup"></span>
+            <div class="content">
+                <form>
+                    <h3>Введите Вашу почту и мы вышлем
+                        Вам письмо с результатами теста</h3>
+                    <div class="form_input">
+                        <input placeholder="Ваш e-mail">
+                    </div>
+                    <h3>Для бесплатной консультации
+                        миграционного адвоката
+                        оставьте ваш телефон</h3>
+                    <div class="form_input">
+                        <input placeholder="Ваше имя">
+                    </div>
+                    <div class="form_input">
+                        <input placeholder="Ваш телефон" class="phone_mask">
+                    </div>
+
+                    <div class="check_form">
+                        <input type="checkbox">
+                        <label>Согласен на обработку персональных данных</label>
+                    </div>
+                    <button class="btn">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-confidentiality confidentialityPopup">
+        <div class="close"></div>
+        <div class="confidentiality__popup ">
+            <span class="close-popup"></span>
+            <div class="content">
+                <h3>Политика конфиденциальности</h3>
+                <div class="text mCustomScrollbar ">
+                    <p>
+                        <strong>
+                            Настоящая Политика определяет порядок, условия обработки персональных данных
+                            пользователей Интернет-сайта consultingplus24.ru (далее – Сайт) и устанавливает
+                            требования по обеспечению безопасности персональных данных пользователей
+                            Администрацией Сайта.
+                        </strong>
+                    </p>
+                    <p>Политика разработана и реализуется в соответствии со следующими нормативными правовыми актами в
+                        области обработки и обеспечения безопасности персональных данных:</p>
+                    <p>
+                        Политика разработана и реализуется в соответствии со следующими нормативными правовыми актами в
+                        области обработки и обеспечения безопасности персональных данных:
+                        Политика разработана и реализуется в соответствии со следующими нормативными правовыми актами в
+                        области обработки и обеспечения безопасности персональных данных:
+                        Политика разработана и реализуется в соответствии со следующими нормативными правовыми актами в
+                        области обработки и обеспечения безопасности персональных данных:Политика разработана и реализуется
+                        в соответствии со следующими нормативными правовыми актами в области обработки и обеспечения
+                        безопасности персональных данных:Политика разработана и реализуется в соответствии со следующими
+                        нормативными правовыми актами в области обработки и обеспечения безопасности персональных данных:
+                        Политика разработана и реализуется в соответствии со следующими нормативными правовыми актами в
+                        области обработки и обеспечения безопасности персональных данных:Политика разработана и реализуется
+                        в соответствии со следующими нормативными правовыми актами в области обработки и обеспечения
+                        безопасности персональных данных:Политика разработана и реализуется в соответствии со
+                        следующими нормативными правовыми актами в области обработки и обеспечения безопасности
+                        персональных данных:Политика разработана и реализуется в соответствии со следующими
+                        нормативными правовыми актами в области обработки и обеспечения безопасности персональных
+                        данных:Политика разработана и реализуется в соответствии со следующими нормативными
+                        правовыми актами в области обработки и обеспечения безопасности персональных данных:Политика
+                        разработана и реализуется в соответствии со следующими нормативными правовыми актами в области
+                        обработки и обеспечения безопасности персональных данных:
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay-registration registrationPopup">
+        <div class="close"></div>
+        <div class="registration__popup ">
+            <span class="close-popup"></span>
+            <div class="content">
+                <h3> Зарегистрируйся
+                    <strong>
+                        и получи особые условия!
+                    </strong></h3>
+                <form>
+                    <div class="form_input">
+                        <i class="icon-mail"></i>
+                        <input placeholder="Почта">
+                    </div>
+                    <div class="form_input">
+                        <i class="icon-padlock"></i>
+                        <input placeholder="Пароль">
+                        <i class="icon-eye"></i>
+                    </div>
+                    <button class="btn">Отправить</button>
+                </form>
+                <span>Зарегистрируйтесь через Facebook / Vkontakte / Google+ </span>
+                <div class="social">
+                    <a href="#"><img src="../img/facebook.png"></a>
+                    <a href="#"><img src="../img/VK.png"></a>
+                    <a href="#"><img src="../img/google.png"></a>
+                </div>
+                <p class="about">Уже имеете аккаунт? <a href="#" class="clos_registration open-login">Войдите</a> </p>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-login loginPopup">
+        <div class="close"></div>
+        <div class="login__popup ">
+            <span class="close-popup"></span>
+            <div class="content">
+                <h3>войти в аккаунт</h3>
+                <form>
+                    <div class="form_input">
+                        <i class="icon-mail"></i>
+                        <input placeholder="Почта">
+                    </div>
+                    <div class="form_input">
+                        <i class="icon-padlock"></i>
+                        <input placeholder="Пароль">
+                        <i class="icon-eye"></i>
+                    </div>
+                    <button class="btn">Отправить</button>
+                </form>
+                <span>Ввойдите через Facebook / Vkontakte / Google+ </span>
+                <div class="social">
+                    <a href="#"><img src="../img/facebook.png"></a>
+                    <a href="#"><img src="../img/VK.png"></a>
+                    <a href="#"><img src="../img/google.png"></a>
+                </div>
+                <p class="about">Уже имеете аккаунт? <a href="#" class=" open-login">Войдите</a> </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay-recommendations_video recommendations_videoPopup">
+        <div class="close"></div>
+        <div class="recommendations_video__popup">
+            <span class="close-popup closeBtn"></span>
+            <div class="content">
+                <span class="reviews-row-item-video-block">
+                    <iframe width="100%" height="300px" src="https://www.youtube.com/embed/COwlqqErDbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-reviews reviewsPopup">
+        <div class="close"></div>
+        <div class="reviews__popup">
+            <span class="close-popup closeBtn"></span>
+            <div class="content">
+                <img src="../img/revie.png">
+            </div>
+        </div>
+    </div>
+    <section class="articles">
+        <div class="container">
+            <ul class="breadcrumb">
+                <li><a href="#">Главная</a></li>
+                <li><span>/</span></li>
+                <li><a href="#">Публикации</a></li>
+                <li><span>/</span></li>
+                <li class="active">Название статьи</li>
+            </ul>
+            <span class="date">21.10.2019</span>
+            <h3 class="revealator-slideup revealator-once">
+                Рабочая виза в Польшу 180/360. Польская виза категории D
+            </h3>
+            <div class="img_box">
+                <img src="../img/foto.png">
+                <div class="text">
+                    <h4>
+                        Рабочая виза в Польшу 180/360. Польская виза категории D
+                    </h4>
+                    <p>
+                        Поиск более высокого уровня дохода – это естественный для человека процесс. В сегодняшних
+                        экономических реалиях работа за границей часто становится не просто исполнением желания больше
+                        заработать, но и жизненной необходимостью.
+
+                    </p>
+                    <p>
+                        Разумеется, в первую очередь выбираются страны наиболее близкие в языковом или ментальном плане.
+                        Многие выбирают с этими целями Польшу. Однако незаконное трудоустройство часто приводит к обману,
+                        мошенничеству и, как следствие, к потере средств, депортации и лишению возможности зарабатывать в
+                        ЕС в будущем.Чтобы нивелировать возможность негативных последствий, нужна польская национальная
+                        виза для украинцев. Деталям этого процесса и будет посвящен данный материал.
+                    </p>
+
+
+                </div>
+            </div>
+            <div class="text">
+                <h4>
+                    Основные этапы
+                </h4>
+                <p>
+                    Поиск более высокого уровня дохода – это естественный для человека процесс. В сегодняшних
+                    экономических реалиях работа за границей часто становится не просто исполнением желания больше
+                    заработать, но и жизненной необходимостью.
+
+                </p>
+                <p>
+                    Разумеется, в первую очередь выбираются страны наиболее близкие в языковом или ментальном плане.
+                    Многие выбирают с этими целями Польшу. Однако незаконное трудоустройство часто приводит к обману,
+                    мошенничеству и, как следствие, к потере средств, депортации и лишению возможности зарабатывать в
+                    ЕС в будущем.
+                </p>
+                <p>
+                    Чтобы нивелировать возможность негативных последствий, нужна польская национальная
+                    виза для украинцев. Деталям этого процесса и будет посвящен данный материал.
+                </p>
+                <p class="quote">
+                    Стоит помнить, что рабочая виза категории D в Польшу дает право на официальный труд только на территории РП. Поездки
+                    в иные страны возможны исключительно в туристических или шопинг целях.
+                </p>
+                <ul class="list">
+                    <li>наименование организации и ее польские реквизиты;</li>
+                    <li>наименование организации и ее польские реквизиты;</li>
+                    <li>наименование организации и ее польские реквизиты;</li>
+                    <li>наименование организации и ее польские реквизиты:</li>
+                    <li class="sub">
+                        <ul>
+                            <li>наименование организации и ее польские реквизиты;</li>
+                            <li>наименование организации и ее польские реквизиты;</li>
+                            <li>наименование организации и ее польские реквизиты;</li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+            <a href="publications.html">Вернуться к списку статей</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>
+                <span>OU «CONSULTING PLUS IMMIGRATION»</span>
+                - один из лидеров
+                на рынке бизнес-иммиграции в ЕС!
+            </p>
+            <a href="javascript:void(0)" class="open-confidentiality">Политика конфиденциальности</a>
+            <p>РЕГ. №12731938</p>
+            <ul class="pay">
+                <li><i class="icon-visa-pay-logo1"></i></li>
+                <li><i class="icon-mastercard"></i></li>
+                <li><i class="icon-bitcoin-logo"></i></li>
+            </ul>
+            <p class="about">© Все права защищены</p>
+        </div>
+    </footer>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.mask.min.js"></script>
+    <script src="../js/jquery.fancybox.min.js"></script>
+    <script src="../js/jcf.min.js"></script>
+    <script src="../js/jcf.checkbox.min.js"></script>
+    <script src="../js/jcf.radio.min.js"></script>
+    <script src="../js/jcf.select.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/fm.revealator.jquery.min.js"></script>
+    <script src="../js/script.min.js"></script>
+
+</body>
+
+</html>
